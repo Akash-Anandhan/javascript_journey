@@ -17,3 +17,9 @@ switch(x){
 for (let i=0;i<=6;i++){
     console.log("welcome")
 }
+//while loop in 
+let i = 3
+while (i<=7){
+    console.log("hi")
+    i++
+}
