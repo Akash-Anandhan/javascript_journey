@@ -23,3 +23,8 @@ while (i<=7){
     console.log("hi")
     i++
 }
+//do - while loop in javaScript
+console.log(i)
+do{
+    console.log("hello world")
+}while(i==5)
