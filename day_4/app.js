@@ -78,3 +78,15 @@ function cb(){
 }
 
 greet('akash', cb)
+
+// using function inside an array
+
+let arr6={
+    name:"akash",
+    age :19,
+    greet : function() {
+        return `hello im ${arr6.name} and im ${arr6.age}`
+    }
+}
+
+console.log(arr6.greet())
