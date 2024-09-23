@@ -51,3 +51,18 @@ console.log(arr4)
 arr4.firstname = 'akash'
 
 console.log(arr4)
+
+
+//function in javascript
+function add(x,y){
+    return x+y
+
+}
+
+console.log(add(10,20))
+
+function greeting(name){
+    console.log(`hi ${name}`)
+}
+greeting('akash')
+
