@@ -66,3 +66,15 @@ function greeting(name){
 }
 greeting('akash')
 
+//callback function
+
+function greet(name, cb){
+    console.log(`heloo ${name}`)
+    cb()
+}
+
+function cb(){
+    console.log("this is inside the callback function")
+}
+
+greet('akash', cb)
