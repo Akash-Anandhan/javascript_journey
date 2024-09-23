@@ -22,3 +22,32 @@ console.log(arr.slice(0,4))
 console.log(arr.join('-'))
 //7.reverse
 console.log(arr.reverse())
+
+
+//dictonary in javascript
+let arr4 = {
+    firstame : "akash",
+    lastname : "anandhan",
+    age : 19,
+    ismale: true 
+}
+
+console.log(arr4)
+
+// asscecing elemets of dictionary in jacvascript
+// wrong way but still works 
+console.log(arr4.firstame)
+
+//proper way
+console.log(arr4['lastname'])
+
+//delete function
+delete arr4.firstame
+
+console.log(arr4)
+
+// adding objects to dictionay
+
+arr4.firstname = 'akash'
+
+console.log(arr4)
