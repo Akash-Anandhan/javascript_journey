@@ -45,3 +45,13 @@ setTimeout(function akash(){
     console.log("interval is being cleared")
     clearInterval(name)    
 }, 5000);
+
+// template string 
+const fname = "akash"
+const lname = "anandhan"
+function greet (){
+    return `hi welcome to javascript`
+}
+
+console.log(` hi my name is ${fname} ${lname} and im 19 yaers old `)
+console.log(`the funtion executed : ${greet()}`)
