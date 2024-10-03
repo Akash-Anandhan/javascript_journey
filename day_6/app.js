@@ -6,3 +6,16 @@ function multiply(a,b=7){
 multiply(3)
 //passing both arguments 
 multiply(2,3)
+
+//spread operator
+arr1=[1,2,3]
+arr2=[5,6,7]
+conct= [...arr1,...arr2]
+
+function greet(a,b,c,d){
+    console.log("a",a);
+    console.log("b",b)
+    console.log("c",c)
+    console.log("d",d)
+}
+greet(2,...arr1)
